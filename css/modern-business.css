@@ -275,3 +275,7 @@ footer li:first-child {
 .color-dimgray {
     color: dimgray;
 }
+footer{
+    position: fixed;
+    bottom: 0px;
+}
