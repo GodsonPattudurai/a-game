@@ -3,8 +3,13 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
-
+@font-face {
+    font-family: GeometrySoftPro;
+    src: url('GeometrySoftPro-BoldN.otf');
+    font-weight: normal;
+}
 body {
+    font-family: "GeometrySoftPro";
     /* padding-top: 54px; */
     /* line-height: 0.5 !important; */
 }
@@ -83,7 +88,6 @@ img {
     font-weight: 400 !important;
     letter-spacing: -.01em !important;
     white-space: nowrap !important;
-    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif !important;
     opacity: 1 !important;
     -webkit-transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
     transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1) !important;
@@ -97,21 +101,6 @@ img {
 .bg-apple-dark{
     background: #eeeeee;
 }
-.new-genration{
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(/images/shop_for_college_large.jpg);
-
-
-}
-.behind-the-mac{
-
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(/images/behind_the_mac_majid_large.jpg);
-}
-
 footer {
     background-color: #f2f2f2;
     font-size: 11px;
@@ -269,16 +258,6 @@ footer li:first-child {
     background-color: dimgrey;
     border-radius: 5px;
 }
-.footerWrap #footerLegal .footerLocal span {
-    width: 16px;
-    height: 16px;
-    display: inline-block;
-    vertical-align: middle;
-    border-radius: 50%;
-    background: url("http://images.apple.com/ac/flags/1/images/us/32.png");
-    background-repeat: no-repeat;
-    background-size: 16px 16px;
-}
 .list-inline-item{
     min-width: 100px !important;
 }
@@ -288,4 +267,11 @@ footer li:first-child {
     display: inline-block;
     vertical-align: middle;
     padding-left: 5px;
+}
+.sub-header-img{
+    width: 75px;
+    height: 60px;
+}
+.color-dimgray {
+    color: dimgray;
 }
