@@ -6,12 +6,9 @@
 @font-face {
     font-family: GeometrySoftPro;
     src: url('GeometrySoftPro-BoldN.otf');
-    font-weight: normal;
 }
 body {
     font-family: "GeometrySoftPro";
-    /* padding-top: 54px; */
-    /* line-height: 0.5 !important; */
 }
 
 @media (min-width: 992px) {
